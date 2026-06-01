@@ -2,9 +2,9 @@ class cuttingRod{
     public static void main(String[] args){
         int[] prices={2,5,7,8,10};
         int n=5;
-        System.out.println(cuttingRod(prices,n));
+        System.out.println(cuttingRodd(prices,n));
     }
-    public static int cuttingRod(int[] prices,int n){
+    public static int cuttingRodd(int[] prices,int n){
         int[][] dp = new int[n][n+1];
         for(int N=0;N<=n;N++){
             dp[0][N]=N*prices[0];
