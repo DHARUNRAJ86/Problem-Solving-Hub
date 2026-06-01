@@ -1,9 +1,9 @@
 class pattern8{
     public static void main(String[] args){
         int n=5;
-        pattern8(n);
+        pattern(n);
     }
-    public static void pattern8(int n){
+    public static void pattern(int n){
          int iniSpace=0;
     	 //up
          for(int i=0;i<n;i++) {
