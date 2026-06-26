@@ -1,4 +1,16 @@
 import java.util.*;
+class Node {
+    public int data;
+    public Node left;
+    public Node right;
+
+    // Constructor
+    public Node(int val) {
+        data = val;
+        left = null;
+        right = null;
+    }
+};
 class LevelOrder{
    public ArrayList<Integer> levelOrder(Node root) {
         ArrayList<Integer> res = new ArrayList<>();
