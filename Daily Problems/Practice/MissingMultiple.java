@@ -11,6 +11,7 @@ class MissingMultiple{
         for(int num:nums){
             set.add(num);
         }
+        
         boolean isTrue=true;
         int missing=k;
         while(isTrue){
